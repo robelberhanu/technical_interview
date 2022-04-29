@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # Import spreadsheet
-file = pd.read_excel("Income and Expenditure.xlsx")
+file = pd.read_excel("data.xlsx")
 
 
 def plot_data(file):
@@ -24,7 +24,6 @@ def plot_data(file):
     plt.legend()
     plt.show()
 
-    
 plot_data(file)
     
  

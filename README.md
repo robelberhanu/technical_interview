@@ -1,5 +1,5 @@
 # **Solution**
-## **Setting Up Virtual Environment**
+## **Setting Up Virtual Environment And Running Application**
 ```python
 # Bash terminal used for the below commands
 
@@ -32,6 +32,11 @@
 # XXX: Running entire program
 # Do not for get setting up the venv
 > */technical_interview(env): uvicorn main:app --reload
+
+
+
+
+
 
 
 
